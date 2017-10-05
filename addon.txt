@@ -1,0 +1,7 @@
+// Extracted with MulleDK19's GMAD Extractor
+"AddonInfo"
+{
+	"name" "Honsal's PlayMusic Module"
+	"author_name" "[KOR]혼살"
+	"info" "PlayMusic module for HSZS."
+}
