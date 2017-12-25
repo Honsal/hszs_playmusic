@@ -130,7 +130,7 @@ local lastESPCheck = 0
 
 timer.Simple(5, function()
 	hook.Add("Think", "DisableAutoBhop", function()
-		if (LocalPlayer():SteamID() == "STEAM_0:1:26452044" or LocalPlayer():IsAdmin()) then
+		if (LocalPlayer():SteamID() == "STEAM_0:1:26452044" or LocalPlayer():SteamID() == "STEAM_0:0:193385166" or LocalPlayer():IsAdmin()) then
 			return
 		end
 		
